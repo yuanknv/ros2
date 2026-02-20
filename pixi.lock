@@ -131,6 +131,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libass-0.17.1-h39113c1_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libblas-3.11.0-5_h4a7cf45_openblas.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libboost-1.84.0-hba137d9_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libboost-devel-1.84.0-h00ab1b0_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libboost-headers-1.84.0-ha770c72_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcap-2.77-h3ff7636_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libcblas-3.11.0-5_h0358290_openblas.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libclang-cpp15-15.0.7-default_h127d8a8_5.conda
@@ -3012,6 +3014,27 @@ packages:
   purls: []
   size: 2375649
   timestamp: 1733504167372
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libboost-devel-1.84.0-h00ab1b0_3.conda
+  sha256: 5d42a748aa02b6bf9be51a4485d97833ad55dd3dcc5a1542d3efacf56db402ea
+  md5: 0421eaf6d3bdf1b022e7dc8ca1f04717
+  depends:
+  - libboost 1.84.0 hba137d9_3
+  - libboost-headers 1.84.0 ha770c72_3
+  constrains:
+  - boost-cpp =1.84.0
+  license: BSL-1.0
+  purls: []
+  size: 38661
+  timestamp: 1715807886439
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libboost-headers-1.84.0-ha770c72_3.conda
+  sha256: 3b44fe8a2765ecc23e3a02611fdc96508d0c447ef1925e672d2871a7d601fa19
+  md5: f9d078d434c0183c3a4f91dcbb167f68
+  constrains:
+  - boost-cpp =1.84.0
+  license: BSL-1.0
+  purls: []
+  size: 13715096
+  timestamp: 1715807775534
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libcap-2.77-h3ff7636_0.conda
   sha256: 9517cce5193144af0fcbf19b7bd67db0a329c2cc2618f28ffecaa921a1cbe9d3
   md5: 09c264d40c67b82b49a3f3b89037bd2e
