@@ -1,78 +1,35 @@
-# About
-The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications.
-From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project.
-And it's all open source.
-Full project details on [ROS.org](https://ros.org/)
+# ROS 2 with CUDA Buffer Backend
 
-# Building
-First, install git if not installed already:
-```
-sudo apt install -y git
-```
+This is a ROS 2 Rolling workspace with the [rcl_buffer](https://github.com/nvcyc/rcl_buffer/tree/rolling-native-buffer) native buffer feature and the [cuda_buffer_backend](https://github.com/yuanknv/cuda_buffer_backend) plugin for zero-copy GPU memory sharing.
 
-Then, install pixi:
+## Getting started
+
+Install [Pixi](https://pixi.sh) for an isolated and reproducible environment:
 
 ```
 curl -fsSL https://pixi.sh/install.sh | sh
 ```
 
-Now, clone this repository:
+Clone this repository:
 
 ```
-git clone https://github.com/karsten-nvidia/ros2.git && cd ros2
+git clone https://github.com/yuanknv/ros2.git && cd ros2
 ```
 
-Now `pixi` can be used to perform the most important steps. To build a package like rclcpp, use
+Run the following command to setup the environment, clone the sources, build, and run the tests:
 
 ```
-pixi run build rclcpp
+pixi run test "cuda_buffer cuda_buffer_backend"
 ```
 
-Note that the above command will automatically install the environment and clone all required source code, so it will take a while.
+You can run `pixi task list` for additional commands available, or simply do `pixi shell` if you prefer to use `colcon` directly.
 
-To run tests, use
+## Packages
 
-```
-pixi run test rclcpp
-```
+| Package | Description |
+|---|---|
+| `cuda_buffer` | Core CUDA buffer implementation: memory pool, IPC manager, and user-facing `to_buffer`/`from_buffer` APIs |
+| `cuda_buffer_backend` | Plugin registration via `pluginlib`, endpoint discovery, and descriptor serialization |
+| `cuda_buffer_backend_msgs` | ROS 2 message definition for `CudaBufferDescriptor` |
 
-To see all available commands, use
-
-```
-pixi task list
-```
-
-# Getting Started
-Looking to get started with ROS?
-Our [installation guide is here](https://www.ros.org/blog/getting-started/).
-Once you've installed ROS start by learning some [basic concepts](https://docs.ros.org/en/rolling/Concepts/Basic.html) and take a look at our [beginner tutorials](https://docs.ros.org/en/rolling/Tutorials/Beginner-CLI-Tools.html).
-
-# Join the ROS Community
-
-## Community Resources
-
-* [ROS Discussion Forum](https://discourse.ros.org/)
-* [ROS Zulip Server](https://openrobotics.zulipchat.com/)
-* [Robotics Stack Exchange](https://robotics.stackexchange.com/) (preferred ROS support forum).
-* [Official ROS Videos](https://vimeo.com/osrfoundation)
-* [ROSCon](https://roscon.ros.org), our yearly developer conference.
-* Cite ROS 2 in academic work using [DOI: 10.1126/scirobotics.abm6074](https://www.science.org/doi/10.1126/scirobotics.abm6074)
-
-## Developer Resources
-* [ROS 2 Documentation](https://docs.ros.org/)
-* [ROS Package API reference](https://docs.ros.org/en/rolling/p/)
-* [ROS Package Index](https://index.ros.org/)
-* [ROS on Docker Hub](https://hub.docker.com/_/ros/)
-* [ROS Resource Status Page](https://status.openrobotics.org/)
-* [REP-2000](https://ros.org/reps/rep-2000.html): ROS 2 Releases and Target Platforms
-
-## Project Resources
-* [Purchase ROS Swag](https://spring.ros.org/)
-* [Information about the ROS Trademark](https://www.ros.org/blog/media/)
-* On Social Media
-  * [Open Robotics on LinkedIn](https://www.linkedin.com/company/open-source-robotics-foundation)
-  * [Open Robotics on Twitter](https://twitter.com/OpenRoboticsOrg)
-  * [ROS.org on Twitter](https://twitter.com/ROSOrg)
-
-ROS is made possible through the generous support of open source contributors and the non-profit [Open Source Robotics Foundation (OSRF)](https://www.openrobotics.org/).
-Tax deductible donations to the OSRF can be [made here.](https://donorbox.org/support-open-robotics?utm_medium=qrcode&utm_source=qrcode)
+See the [cuda_buffer_backend README](https://github.com/yuanknv/cuda_buffer_backend) for usage examples and IPC behavior details.
