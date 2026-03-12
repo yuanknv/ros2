@@ -96,6 +96,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gettext-tools-0.25.1-h3f43e3d_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/giflib-5.2.2-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/git-2.43.0-pl5321h709897a_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/glew-2.1.0-h9c3ff4c_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/glib-2.80.2-hf974151_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.80.2-hb6ce0ca_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gmp-6.3.0-hac33072_2.conda
@@ -160,11 +161,15 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-15.2.0-h69a702a_16.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-15.2.0-h69a702a_16.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-15.2.0-h68bc16d_16.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgl-1.7.0-ha4b6fd6_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgl-devel-1.7.0-ha4b6fd6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.80.2-hf974151_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libglu-9.0.3-h5888daf_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libglvnd-1.7.0-ha4b6fd6_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libglvnd-1.7.0-ha4b6fd6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/libglvnd-cos7-x86_64-1.0.1-ha675448_1106.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/libglvnd-glx-cos7-x86_64-1.0.1-ha675448_1106.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libglx-devel-1.7.0-ha4b6fd6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.2.0-he0feb66_16.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.11.2-default_he43201b_1000.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libiconv-1.18-h3b78370_2.conda
@@ -182,7 +187,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libogg-1.3.5-hd0c01bc_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.30-pthreads_h94d23a6_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopencv-4.9.0-qt5_py312h0314e64_515.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenvino-2024.1.0-h2da1b83_7.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenvino-auto-batch-plugin-2024.1.0-hb045406_7.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenvino-auto-plugin-2024.1.0-hb045406_7.conda
@@ -309,6 +314,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/rospkg-1.6.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/rust-1.75.0-h70c747d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/rust-std-x86_64-unknown-linux-gnu-1.75.0-h2c6d0dc_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/sdl2-2.30.7-h3ed165c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/sed-4.9-h6688a6e_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-68.1.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/sip-6.7.12-py312h30efb56_0.conda
@@ -342,6 +348,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-compositeproto-0.4.2-hb9d3cd8_1002.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-damageproto-1.2.1-hb9d3cd8_1003.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-fixesproto-5.0-hb9d3cd8_1003.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-glproto-1.4.17-hb9d3cd8_1003.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-inputproto-2.3.2-hb9d3cd8_1003.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-kbproto-1.0.7-hb9d3cd8_1003.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libice-1.1.2-hb9d3cd8_0.conda
@@ -2232,6 +2239,20 @@ packages:
   purls: []
   size: 117459958
   timestamp: 1708358614792
+- conda: https://conda.anaconda.org/conda-forge/linux-64/glew-2.1.0-h9c3ff4c_2.tar.bz2
+  sha256: 86f5484e38f4604f7694b14f64238e932e8fd8d7364e86557f4911eded2843ae
+  md5: fb05eb5c47590b247658243d27fc32f1
+  depends:
+  - libgcc-ng >=9.3.0
+  - libglu
+  - libstdcxx-ng >=9.3.0
+  - xorg-libx11
+  - xorg-libxext
+  license: BSD-3-Clause
+  license_family: BSD
+  purls: []
+  size: 662569
+  timestamp: 1607113198887
 - conda: https://conda.anaconda.org/conda-forge/linux-64/glib-2.80.2-hf974151_0.conda
   sha256: d10a0f194d2c125617352a81a4ff43a17cf5835e88e8f151da9f9710e2db176d
   md5: d427988dc3dbd0a4c136f52db356cc6a
@@ -3533,6 +3554,28 @@ packages:
   purls: []
   size: 2480559
   timestamp: 1765256819588
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libgl-1.7.0-ha4b6fd6_0.conda
+  sha256: 993f3bfe04e16c58fceab108bf54f1522ff93a657a22a4ced8c56658001d55fa
+  md5: 3deca8c25851196c28d1c84dd4ae9149
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libglvnd 1.7.0 ha4b6fd6_0
+  - libglx 1.7.0 ha4b6fd6_0
+  license: LicenseRef-libglvnd
+  purls: []
+  size: 132746
+  timestamp: 1723473216625
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libgl-devel-1.7.0-ha4b6fd6_0.conda
+  sha256: ab97033b3f6ecd983b1a6682e830023113fdcfd25ff139ca98ea9295d9f59aeb
+  md5: 7a74c89b5435866bded8074bf6fa3674
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgl 1.7.0 ha4b6fd6_0
+  - libglx-devel 1.7.0 ha4b6fd6_0
+  license: LicenseRef-libglvnd
+  purls: []
+  size: 114733
+  timestamp: 1723473229262
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.80.2-hf974151_0.conda
   sha256: 93e03b6cf4765bc06d64fa3dac65f22c53ae4a30247bb0e2dea0bd9c47a3fb26
   md5: 72724f6a78ecb15559396966226d5838
@@ -3578,15 +3621,15 @@ packages:
   purls: []
   size: 325262
   timestamp: 1748692137626
-- conda: https://conda.anaconda.org/conda-forge/linux-64/libglvnd-1.7.0-ha4b6fd6_2.conda
-  sha256: 1175f8a7a0c68b7f81962699751bb6574e6f07db4c9f72825f978e3016f46850
-  md5: 434ca7e50e40f4918ab701e3facd59a0
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libglvnd-1.7.0-ha4b6fd6_0.conda
+  sha256: ce35ceca19110ba9d27cb0058e55c62ea0489b3dfad76d016df2d0bf4f027998
+  md5: e46b5ae31282252e0525713e34ffbe2b
   depends:
   - __glibc >=2.17,<3.0.a0
   license: LicenseRef-libglvnd
   purls: []
-  size: 132463
-  timestamp: 1731330968309
+  size: 129500
+  timestamp: 1723473188457
 - conda: https://conda.anaconda.org/conda-forge/noarch/libglvnd-cos7-x86_64-1.0.1-ha675448_1106.tar.bz2
   sha256: a1c8f2323fd6264c87099aba24a88594756e661bbe1dca00cadd89c25b358c8a
   md5: 5b6f90a0c8dbdfee4562c01a61d00074
@@ -3608,6 +3651,30 @@ packages:
   purls: []
   size: 181258
   timestamp: 1726580316705
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libglx-1.7.0-ha4b6fd6_0.conda
+  sha256: 72ba2a55de3d8902b40359433bbc51f50574067eaf2ae4081a2347d3735e30bb
+  md5: b470cc353c5b852e0d830e8d5d23e952
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libglvnd 1.7.0 ha4b6fd6_0
+  - xorg-libx11 >=1.8.9,<2.0a0
+  license: LicenseRef-libglvnd
+  purls: []
+  size: 79343
+  timestamp: 1723473207891
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libglx-devel-1.7.0-ha4b6fd6_0.conda
+  sha256: 0ef1dafc7b8897b2c02bb97dd8797c4aede7ed892c78fc58087c219f9b377e8e
+  md5: 7cf710253c3a0ee41425eef303f37e20
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libglx 1.7.0 ha4b6fd6_0
+  - xorg-glproto
+  - xorg-libx11 >=1.8.9,<2.0a0
+  - xorg-xextproto >=7.3.0,<8.0a0
+  license: LicenseRef-libglvnd
+  purls: []
+  size: 26401
+  timestamp: 1723473221051
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-15.2.0-he0feb66_16.conda
   sha256: 5b3e5e4e9270ecfcd48f47e3a68f037f5ab0f529ccb223e8e5d5ac75a58fc687
   md5: 26c46f90d0e727e95c6c9498a33a09f3
@@ -4055,16 +4122,16 @@ packages:
   - pkg:pypi/opencv-python-headless?source=hash-mapping
   size: 32895576
   timestamp: 1716155900481
-- conda: https://conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_2.conda
-  sha256: 215086c108d80349e96051ad14131b751d17af3ed2cb5a34edd62fa89bfe8ead
-  md5: 7df50d44d4a14d6c31a2c54f2cd92157
+- conda: https://conda.anaconda.org/conda-forge/linux-64/libopengl-1.7.0-ha4b6fd6_0.conda
+  sha256: 6807eff238bbd19680184aad70c90c9c14824fca8b52b791b6669e37e0e963a7
+  md5: 8e5037cbb79e56e4eba250cba7fcc784
   depends:
   - __glibc >=2.17,<3.0.a0
-  - libglvnd 1.7.0 ha4b6fd6_2
+  - libglvnd 1.7.0 ha4b6fd6_0
   license: LicenseRef-libglvnd
   purls: []
-  size: 50757
-  timestamp: 1731330993524
+  size: 50785
+  timestamp: 1723473212137
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenvino-2024.1.0-h2da1b83_7.conda
   sha256: 8af6ecc01993cac30656a78a5e82f81b04a663623563776d4d0a6688597b925f
   md5: 692bb11510bfceb34723c5115045096e
@@ -6687,6 +6754,20 @@ packages:
   purls: []
   size: 33042935
   timestamp: 1704208890522
+- conda: https://conda.anaconda.org/conda-forge/linux-64/sdl2-2.30.7-h3ed165c_0.conda
+  sha256: 80691a3ce313f0f7908480c0af216520d655e9480e036feb489c2095ad37950a
+  md5: be75875082c99c7a9f9fe930a1bd2bb1
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - libstdcxx >=13
+  - pulseaudio-client >=17.0,<17.1.0a0
+  - xorg-libx11 >=1.8.9,<2.0a0
+  - xorg-libxext >=1.3.4,<2.0a0
+  license: Zlib
+  purls: []
+  size: 1391142
+  timestamp: 1725255009793
 - conda: https://conda.anaconda.org/conda-forge/linux-64/sed-4.9-h6688a6e_0.conda
   sha256: ee826aa0c6157d4a947722b1205964482ff8e88136bd3161864f8cefdca85b5b
   md5: 171afc5f7ca0408bbccbcb69ade85f92
@@ -7269,6 +7350,17 @@ packages:
   purls: []
   size: 11311
   timestamp: 1727033761080
+- conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-glproto-1.4.17-hb9d3cd8_1003.conda
+  sha256: cd29d1023230078cf83a06d01f4f013d9bbfbc7f8082ba59b40090c4f2f4eec3
+  md5: 8361b4e3d72dc700eb46422470b34901
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  license: MIT
+  license_family: MIT
+  purls: []
+  size: 23473
+  timestamp: 1726801830878
 - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-inputproto-2.3.2-hb9d3cd8_1003.conda
   sha256: 77eea289f9d3fa753a290f988533c842694b826fe1900abd6d7b142c528512ba
   md5: 32623b33f2047dbc9ae2f2e8fd3880e9

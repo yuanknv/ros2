@@ -385,7 +385,7 @@ repositories:
     version: rolling
   ros2/rosidl_typesupport_fastrtps:
     type: git
-    url: https://github.com/yuanknv/rosidl_typesupport_fastrtps.git
+    url: https://github.com/nvcyc/rosidl_typesupport_fastrtps.git
     version: rolling-native-buffer
   ros2/rpyutils:
     type: git
